@@ -1,2 +1,2 @@
 # Fyxy-Lua-Script
-绯月柳絮Lua
+绯月絮语Lua
