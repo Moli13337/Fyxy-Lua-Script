@@ -1,0 +1,30 @@
+local _datas = {
+MagicWheelExpend="1=190001=1",
+MagicWheelMoreNum=10,
+MagicWheelMoreNum1="magicwheel_txt_4",
+MagicWheelMoreExpend="1=190001=10",
+MagicWheelDisMoreExpend="1=190001=8",
+MagicWheelDisMoreCondition=1,
+MagicWheelIntNum="",
+MagicWheelLuckNum="1=108401=10",
+MagicWheelFreeRefTime=10800,
+MagicWheelRefExpend="1=102001=30",
+MagicWheelReset=100,
+MagicWheelMaxNum=10000,
+MagicWheelHighExpend="1=190002=1",
+MagicWheelHighMoreNum=10,
+MagicWheelHighMoreNum1="magicwheel_txt_4",
+MagicWheelHighMoreExpend="1=190002=10",
+MagicWheelHighIntNum="",
+MagicWheelHighLuckNum="1=108402=10",
+MagicWheelHighFreeRefTime=10800,
+MagicWheelHighRefExpend="1=102001=30",
+MagicWheelHighReset=100,
+MagicWheelHighMaxNum=10000,
+MagicWheelResources="1=190001|1=190002|1=102001",
+MagicWheelShopJump=14600041,
+MagicWheelItemNum=8,
+MagicWheelRefTime=2
+}
+
+return _datas

@@ -1,0 +1,33 @@
+local _datas = {
+champStartTime="12:00:00",
+serverOpenDays=7,
+openDays=1,
+cutOffTime=60,
+readyTime=30,
+guessTime=90,
+combatTime=180,
+GameDuration=3600,
+auditionsNum=256,
+auditionsGroupNum=32,
+auditionsRound=6,
+winWeightCost1=100,
+winWeightCost2=1000,
+finalNum=64,
+finalGroupNum=8,
+guessCoin="1=112001=50=0",
+GuessAward="1=112005=",
+GuessChange="1=1",
+minTime=1,
+guessCoinMax=2500,
+oddsMin=1.5,
+oddsCost=0.5,
+dynamicOddsCost1=0.2,
+dynamicOddsCost2=0.3,
+alterAward1="1=1501016=1=0,1=112001=1=0,1=101001=1=0",
+alterAward2="1=112001=1=0,1=101001=1=0",
+winningTime=3,
+robotLv=5,
+historyLike=1004
+}
+
+return _datas

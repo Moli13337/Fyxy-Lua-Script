@@ -1,0 +1,32 @@
+local _datas = {
+battletemplecombataward_0_10201="达到新秀殿堂前350名",
+battletemplecombataward_0_10202="达到新秀殿堂前300名",
+battletemplecombataward_0_10203="达到新秀殿堂前250名",
+battletemplecombataward_0_10204="达到新秀殿堂前200名",
+battletemplecombataward_0_10205="达到新秀殿堂前150名",
+battletemplecombataward_0_10206="达到新秀殿堂前100名",
+battletemplecombataward_0_10207="达到新秀殿堂前50名",
+battletemplecombataward_0_10301="达到精英殿堂前260名",
+battletemplecombataward_0_10302="达到精英殿堂前220名",
+battletemplecombataward_0_10303="达到精英殿堂前180名",
+battletemplecombataward_0_10304="达到精英殿堂前140名",
+battletemplecombataward_0_10305="达到精英殿堂前100名",
+battletemplecombataward_0_10306="达到精英殿堂前60名",
+battletemplecombataward_0_10307="达到精英殿堂前20名",
+battletemplecombataward_0_10401="达到首席殿堂前170名",
+battletemplecombataward_0_10402="达到首席殿堂前140名",
+battletemplecombataward_0_10403="达到首席殿堂前110名",
+battletemplecombataward_0_10404="达到首席殿堂前80名",
+battletemplecombataward_0_10405="达到首席殿堂前50名",
+battletemplecombataward_0_10406="达到首席殿堂前20名",
+battletemplecombataward_0_10501="达到领袖殿堂前80名",
+battletemplecombataward_0_10502="达到领袖殿堂前60名",
+battletemplecombataward_0_10503="达到领袖殿堂前40名",
+battletemplecombataward_0_10504="达到领袖殿堂前20名",
+battletemplecombataward_0_10601="达到女神殿堂前40名",
+battletemplecombataward_0_10602="达到女神殿堂前30名",
+battletemplecombataward_0_10603="达到女神殿堂前20名",
+battletemplecombataward_0_10604="达到女神殿堂前10名"
+}
+
+return _datas

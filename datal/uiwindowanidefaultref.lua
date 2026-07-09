@@ -1,0 +1,31 @@
+local _datas = {
+OpenCell1=1001,
+OpenCell2=1002,
+OpenCell3=1003,
+OpenCell4=1004,
+OpenCell5=1005,
+MoveCell1=1101,
+MoveCell2=1102,
+MoveCell3=1103,
+MoveCell4=1104,
+MoveCell5=1105,
+ResetCell1=1201,
+ResetCell2=1202,
+ResetCell3=1203,
+ResetCell4=1204,
+ResetCell5=1205,
+OpenUIBottom=2001,
+OpenUIWnd=2002,
+OpenUIUp=2003,
+OpenUITop=2004,
+CloseUIBottom=9001,
+CloseUIWnd=9002,
+CloseUIUp=9003,
+CloseUITop=9004,
+OpenChildUIBottom=3001,
+OpenChildUIWnd=3002,
+OpenChildUIUp=3003,
+OpenChildUITop=3004
+}
+
+return _datas

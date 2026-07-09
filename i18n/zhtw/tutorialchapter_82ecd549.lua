@@ -1,0 +1,30 @@
+local _datas = {
+tutorialchapter_0_1001="属性克制",
+tutorialchapter_0_1002="站位说明I",
+tutorialchapter_0_1003="站位说明II",
+tutorialchapter_0_1004="增益复活",
+tutorialchapter_0_1005="出手顺序",
+tutorialchapter_0_1006="阵法选择",
+tutorialchapter_0_1007="龙纹选择",
+tutorialchapter_0_1008="龙纹顺序",
+tutorialchapter_0_2001="纯水冰冻",
+tutorialchapter_0_2002="纯火灼烧",
+tutorialchapter_0_2003="纯风高速",
+tutorialchapter_0_2004="纯光爆发",
+tutorialchapter_0_2005="纯暗剧毒",
+tutorialchapter_1_1001="合理利用属性克制，击败敌人",
+tutorialchapter_1_1002="合理规划站位，规避伤害",
+tutorialchapter_1_1003="职业分工，规避伤害",
+tutorialchapter_1_1004="辅助可以进行治疗，保证伙伴们的存活",
+tutorialchapter_1_1005="速度制胜，先出手赢一半",
+tutorialchapter_1_1006="合理利用阵法，最大程度规避敌人的伤害",
+tutorialchapter_1_1007="龙纹可以在战斗中提供伤害和治疗",
+tutorialchapter_1_1008="合理规划龙纹顺序，最大化龙纹收益",
+tutorialchapter_1_2001="通过冰冻控制敌人，稳中制胜",
+tutorialchapter_1_2002="利用灼烧造成不俗伤害",
+tutorialchapter_1_2003="通过先手优势造成对方减员，从而战胜对手",
+tutorialchapter_1_2004="通过强大的爆发能力战胜敌人",
+tutorialchapter_1_2005="通过给目标附加剧毒造成大量伤害"
+}
+
+return _datas

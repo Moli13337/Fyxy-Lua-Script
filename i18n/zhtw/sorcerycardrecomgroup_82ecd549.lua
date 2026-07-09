@@ -1,0 +1,31 @@
+local _datas = {
+sorcerycardrecomgroup_0_1="堕落国",
+sorcerycardrecomgroup_0_2="欲望森",
+sorcerycardrecomgroup_0_3="情迷炼狱",
+sorcerycardrecomgroup_0_4="女仆酒馆",
+sorcerycardrecomgroup_0_5="女妖店",
+sorcerycardrecomgroup_0_6="怪盗团",
+sorcerycardrecomgroup_0_7="调教病院",
+sorcerycardrecomgroup_0_8="少女聚会",
+sorcerycardrecomgroup_0_9="女神花园",
+sorcerycardrecomgroup_1_1="爆发|增伤",
+sorcerycardrecomgroup_1_2="减益|爆发",
+sorcerycardrecomgroup_1_3="免伤|治疗",
+sorcerycardrecomgroup_1_4="增伤|保护",
+sorcerycardrecomgroup_1_5="增益",
+sorcerycardrecomgroup_1_6="击杀|增益",
+sorcerycardrecomgroup_1_7="加伤|加防",
+sorcerycardrecomgroup_1_8="增益|全体",
+sorcerycardrecomgroup_1_9="复活|暴击",
+sorcerycardrecomgroup_2_1="适合单体高爆发阵容；克制打前排的阵容",
+sorcerycardrecomgroup_2_2="适合偶数回合爆发的阵容，围绕【韵扰】状态提升整体爆发伤害",
+sorcerycardrecomgroup_2_3="提升守卫和辅助的生存能力，相互相成，相互保护",
+sorcerycardrecomgroup_2_4="保护输出角色，同时提升输出角色的残局爆发能力",
+sorcerycardrecomgroup_2_5="适合奇数回合爆发的阵容，同时提升偶数回合的生存能力",
+sorcerycardrecomgroup_2_6="围绕击杀和被击杀获得增益效果",
+sorcerycardrecomgroup_2_7="围绕攻击和受击获得增益",
+sorcerycardrecomgroup_2_8="全能型阵容；需要通过速度调配才能达成最佳效果触发全体增益",
+sorcerycardrecomgroup_2_9="适合打中后期的队伍，需要通过回合积累才能达成最大收益"
+}
+
+return _datas

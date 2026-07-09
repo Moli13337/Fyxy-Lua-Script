@@ -1,0 +1,15 @@
+{
+  "algorithm": "3-byte cyclic XOR",
+  "key_derivation": "key = [(seed+1)&0xFF, (seed*3)&0xFF, (seed*5)&0xFF]",
+  "stats": {
+    "total": 3363,
+    "decrypted": 3246,
+    "plaintext": 117,
+    "failed": 0
+  },
+  "output": {
+    "total_written": 3261,
+    "skipped_same_content": 102,
+    "collision_resolved": 432
+  }
+}

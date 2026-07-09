@@ -1,0 +1,31 @@
+local _datas = {
+divineweapontechnology_0_10001="神聖之光",
+divineweapontechnology_0_20001="大地之力",
+divineweapontechnology_0_20002="鋒刃之舞",
+divineweapontechnology_0_20003="鋼鐵肌膚",
+divineweapontechnology_0_20004="暗影加持",
+divineweapontechnology_0_30001="自然共鳴",
+divineweapontechnology_0_30002="魔法加持",
+divineweapontechnology_0_30003="盾墻防禦",
+divineweapontechnology_0_30004="晶之壁壘",
+divineweapontechnology_0_40001="神聖契約",
+divineweapontechnology_0_50001="精準射擊",
+divineweapontechnology_0_50002="暗影刺殺",
+divineweapontechnology_0_50003="生命護衛",
+divineweapontechnology_0_50004="曜夜共鳴",
+divineweapontechnology_0_60001="藤蔓屏障",
+divineweapontechnology_0_60002="狂暴姿態",
+divineweapontechnology_0_60003="天使意誌",
+divineweapontechnology_0_60004="異界裁決",
+divineweapontechnology_0_70001="光芒註入",
+divineweapontechnology_0_80001="和平守護",
+divineweapontechnology_0_80002="元素毀滅",
+divineweapontechnology_0_80003="秘術禁錮",
+divineweapontechnology_0_80004="洞察加持",
+divineweapontechnology_0_90001="槍刃破碎",
+divineweapontechnology_0_90002="魔法禁地",
+divineweapontechnology_0_90003="吟唱封鎖",
+divineweapontechnology_0_90004="混沌回溯"
+}
+
+return _datas

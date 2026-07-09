@@ -1,0 +1,31 @@
+local _datas = {
+sorcerycardrecomgroup_0_1="墮落國",
+sorcerycardrecomgroup_0_2="慾望森",
+sorcerycardrecomgroup_0_3="情迷煉獄",
+sorcerycardrecomgroup_0_4="女僕酒館",
+sorcerycardrecomgroup_0_5="女妖店",
+sorcerycardrecomgroup_0_6="怪盜團",
+sorcerycardrecomgroup_0_7="調教病院",
+sorcerycardrecomgroup_0_8="癡女聚會",
+sorcerycardrecomgroup_0_9="女神花園",
+sorcerycardrecomgroup_1_1="爆發|增傷",
+sorcerycardrecomgroup_1_2="減益|爆發",
+sorcerycardrecomgroup_1_3="免傷|治療",
+sorcerycardrecomgroup_1_4="增傷|保護",
+sorcerycardrecomgroup_1_5="增益",
+sorcerycardrecomgroup_1_6="擊殺|增益",
+sorcerycardrecomgroup_1_7="加傷|加防",
+sorcerycardrecomgroup_1_8="增益|全體",
+sorcerycardrecomgroup_1_9="復活|暴擊",
+sorcerycardrecomgroup_2_1="適合單體高爆發陣容；剋制打前排的陣容",
+sorcerycardrecomgroup_2_2="適合偶數回合爆發的陣容，圍繞【情慾】狀態提升整體爆發傷害",
+sorcerycardrecomgroup_2_3="提升守衛和輔助的生存能力，相互相成，相互保護",
+sorcerycardrecomgroup_2_4="保護輸出角色，同時提升輸出角色的殘局爆發能力",
+sorcerycardrecomgroup_2_5="適合奇數回合爆發的陣容，同時提升偶數回合的生存能力",
+sorcerycardrecomgroup_2_6="圍繞擊殺和被擊殺獲得增益效果",
+sorcerycardrecomgroup_2_7="圍繞攻擊和受擊獲得增益",
+sorcerycardrecomgroup_2_8="全能型陣容；需要通過速度調配才能達成最佳效果觸發全體增益",
+sorcerycardrecomgroup_2_9="適合打中後期的隊伍，需要通過回合積累才能達成最大收益"
+}
+
+return _datas

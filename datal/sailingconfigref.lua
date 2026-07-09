@@ -1,0 +1,32 @@
+local _datas = {
+startTime=20200102,
+updateDay=1,
+skipOpen=60,
+effectVanish=0.5,
+newServerOpen=2,
+paryTime=30,
+paryRefresh="0.5;1;2",
+paryPath="3;4",
+parySpeed="6;8;10",
+paryNum=55,
+paryBomb="1=220014=1",
+shipResidue=30,
+ship=3,
+shipFall=1,
+shipUp=1,
+shipResilience=0.5,
+shipTime="1.5;2",
+shipPath="2;3",
+shipSpeed="6;8;10",
+shipNum=10,
+shipStone="1=220015=1",
+treeTime=10,
+treeClick=60,
+flyPlatformNum=4,
+risingSpeed=3,
+flySpeed="5=1",
+landingSpeed=3,
+flyTime=10
+}
+
+return _datas

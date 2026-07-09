@@ -1,0 +1,32 @@
+local _datas = {
+chatWordLimit=50,
+chatInfoLimit=99,
+SL_StoreNum=30,
+chatClean=8,
+chatTimeStamp=600,
+chatHeroShareRefId=1,
+provinceChangeLimit=1,
+noticesSpeed=85,
+serverNumber=4,
+chatListMax=970,
+floatWindowWordsMax=400,
+floatWindowLength=400,
+floatWindowAutoFold=5,
+chatNumMax="2=100,3=100",
+reportNum=10,
+reportCD=5,
+reportDescriptionNum=100,
+reportReason="1=17114,2=17115,3=17116,4=17117,5=17118,6=17119",
+sendCD=5,
+textLength=30,
+textShowSpeed=2,
+textShowAgainSpeed=8,
+textShowFirst="0.8",
+textColor="0fb93f,29c5ff,f183ed,fe8e16,ff5151",
+textColorSelf="eee998",
+textRepeat=1,
+textSpeed=5,
+textBoxColor=5
+}
+
+return _datas

@@ -1,0 +1,30 @@
+local _datas = {
+tutorialchapter_0_1001="屬性剋制",
+tutorialchapter_0_1002="站位說明I",
+tutorialchapter_0_1003="站位說明II",
+tutorialchapter_0_1004="增益復活",
+tutorialchapter_0_1005="出手順序",
+tutorialchapter_0_1006="陣法選擇",
+tutorialchapter_0_1007="龍紋選擇",
+tutorialchapter_0_1008="龍紋順序",
+tutorialchapter_0_2001="純水冰凍",
+tutorialchapter_0_2002="純火灼燒",
+tutorialchapter_0_2003="純風高速",
+tutorialchapter_0_2004="純光爆發",
+tutorialchapter_0_2005="純暗劇毒",
+tutorialchapter_1_1001="合理利用屬性剋制，擊敗敵人",
+tutorialchapter_1_1002="合理規劃站位，規避傷害",
+tutorialchapter_1_1003="職業分工，規避傷害",
+tutorialchapter_1_1004="輔助可以進行治療，保證少女們的存活",
+tutorialchapter_1_1005="速度制勝，先出手贏一半",
+tutorialchapter_1_1006="合理利用陣法，最大程度規避敵人的傷害",
+tutorialchapter_1_1007="龍紋可以在戰鬥中提供傷害和治療",
+tutorialchapter_1_1008="合理規劃龍紋順序，最大化龍紋收益",
+tutorialchapter_1_2001="通過冰凍控制敵人，穩中制勝",
+tutorialchapter_1_2002="利用灼燒造成不俗傷害",
+tutorialchapter_1_2003="通過先手優勢造成對方減員，從而戰勝對手",
+tutorialchapter_1_2004="通過強大的爆發能力戰勝敵人",
+tutorialchapter_1_2005="通過給目標附加劇毒造成大量傷害"
+}
+
+return _datas

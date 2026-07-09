@@ -1,0 +1,32 @@
+local _datas = {
+mainActivityMax=25,
+textImage="",
+subscribeTips=1,
+privilegeGiftDaily="1=190001=1=0",
+textImage1="privilegeshop_txt_5",
+textImage2="privilegeshop_txt_6",
+textImage3="privilegeshop_txt_8",
+permanentIcon="0",
+nextIcon=1,
+gradeCondition=72,
+openTimeTips="com.yiyou=2024,6,13,10,0",
+rollTime=2.5,
+rollingTime=3,
+serverTime="-0.68,1",
+facebookLink="https://www.facebook.com/talesofangels",
+discordLink="https://discord.gg/DRrdCSttUp",
+BusinessLawLink1="https://hkstarpower.com/mhjp/trade.html",
+BusinessLawLink2="https://hkstarpower.com/mhjp/disclosure.html",
+privacyReward1="https://web.wbres.charmyue.cn/terms/moji_mainland/privacyPolicyxiaomi.html",
+privacyReward2="https://web.wbres.charmyue.cn/terms/moji_mainland/privacyPolicyhuawei.html",
+privacyReward3="https://web.wbres.charmyue.cn/terms/moji_mainland/privacyPolicyOPPO.html",
+privacyReward4="https://web.wbres.charmyue.cn/terms/moji_mainland/privacyPolicyvivo.html",
+privacyReward5="https://web.wbres.charmyue.cn/terms/moji_mainland/privacyPolicy.html",
+questReward="1=102001=500",
+openStarsLevel="4=-1",
+openRecharge="4=6",
+openStarsLevelWx="4=-1",
+openRechargeWx="4=10000=0|4=6=507|4=6=508|4=6=503|4=6=504"
+}
+
+return _datas

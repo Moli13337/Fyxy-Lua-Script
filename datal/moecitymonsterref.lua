@@ -1,0 +1,81 @@
+local _keys = {refId=1,monsterShow=2,name=3,dses=4,atk=5,hp=6,displayHp=7,def=8,walkSpeed=9,cd=10,hitEffect=11,skill=12,scale=13,exp=14}
+local _mt = {
+    __index = function(t, k)
+        local idx = _keys[k]
+        if not idx then return nil end
+        return rawget(t, idx)
+    end,
+    __newindex = function(t, k)
+    end
+}
+local _set = setmetatable
+local _datas = {
+[10001]=_set({10001,1701,"moecitymonster_0_10001","moecitymonster_1_10001",56,309,0,0,583,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10002]=_set({10002,1702,"moecitymonster_0_10002","moecitymonster_1_10002",61,285,0,0,616,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10003]=_set({10003,1703,"moecitymonster_0_10003","moecitymonster_1_10003",80,240,0,0,700,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10004]=_set({10004,1704,"moecitymonster_0_10004","moecitymonster_1_10004",92,216,0,0,733,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10005]=_set({10005,2701,"moecitymonster_0_10005","moecitymonster_1_10005",58,316,0,0,600,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10006]=_set({10006,2703,"moecitymonster_0_10006","moecitymonster_1_10006",79,237,0,0,716,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10007]=_set({10007,2704,"moecitymonster_0_10007","moecitymonster_1_10007",88,235,0,0,666,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10008]=_set({10008,2705,"moecitymonster_0_10008","moecitymonster_1_10008",83,225,0,0,733,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10009]=_set({10009,3701,"moecitymonster_0_10009","moecitymonster_1_10009",58,321,0,0,583,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10010]=_set({10010,3702,"moecitymonster_0_10010","moecitymonster_1_10010",65,302,0,0,616,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10011]=_set({10011,3703,"moecitymonster_0_10011","moecitymonster_1_10011",89,231,0,0,733,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10012]=_set({10012,3705,"moecitymonster_0_10012","moecitymonster_1_10012",83,248,0,0,683,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10013]=_set({10013,4701,"moecitymonster_0_10013","moecitymonster_1_10013",55,313,0,0,583,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10014]=_set({10014,4702,"moecitymonster_0_10014","moecitymonster_1_10014",61,287,0,0,633,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10015]=_set({10015,4704,"moecitymonster_0_10015","moecitymonster_1_10015",83,253,0,0,700,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10016]=_set({10016,4705,"moecitymonster_0_10016","moecitymonster_1_10016",88,218,0,0,733,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10017]=_set({10017,4706,"moecitymonster_0_10017","moecitymonster_1_10017",85,228,0,0,700,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10018]=_set({10018,5701,"moecitymonster_0_10018","moecitymonster_1_10018",55,325,0,0,566,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10019]=_set({10019,5702,"moecitymonster_0_10019","moecitymonster_1_10019",61,311,0,0,650,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10020]=_set({10020,5704,"moecitymonster_0_10020","moecitymonster_1_10020",77,245,0,0,716,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10021]=_set({10021,5705,"moecitymonster_0_10021","moecitymonster_1_10021",86,219,0,0,733,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[10022]=_set({10022,5706,"moecitymonster_0_10022","moecitymonster_1_10022",87,234,0,0,666,5000,"fx_yunbao01_attack1_hit","",1,10},_mt),
+[20001]=_set({20001,1701,"moecitymonster_0_20001","moecitymonster_1_20001",70,2163,1,0,583,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20002]=_set({20002,1702,"moecitymonster_0_20002","moecitymonster_1_20002",76,1995,1,0,616,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20003]=_set({20003,1703,"moecitymonster_0_20003","moecitymonster_1_20003",100,1680,1,0,700,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20004]=_set({20004,1704,"moecitymonster_0_20004","moecitymonster_1_20004",115,1512,1,0,733,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20005]=_set({20005,2701,"moecitymonster_0_20005","moecitymonster_1_20005",73,2212,1,0,600,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20006]=_set({20006,2703,"moecitymonster_0_20006","moecitymonster_1_20006",99,1659,1,0,716,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20007]=_set({20007,2704,"moecitymonster_0_20007","moecitymonster_1_20007",110,1645,1,0,666,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20008]=_set({20008,2705,"moecitymonster_0_20008","moecitymonster_1_20008",104,1575,1,0,733,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20009]=_set({20009,3701,"moecitymonster_0_20009","moecitymonster_1_20009",73,2247,1,0,583,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20010]=_set({20010,3702,"moecitymonster_0_20010","moecitymonster_1_20010",81,2114,1,0,616,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20011]=_set({20011,3703,"moecitymonster_0_20011","moecitymonster_1_20011",111,1617,1,0,733,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20012]=_set({20012,3705,"moecitymonster_0_20012","moecitymonster_1_20012",104,1736,1,0,683,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20013]=_set({20013,4701,"moecitymonster_0_20013","moecitymonster_1_20013",69,2191,1,0,583,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20014]=_set({20014,4702,"moecitymonster_0_20014","moecitymonster_1_20014",76,2009,1,0,633,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20015]=_set({20015,4704,"moecitymonster_0_20015","moecitymonster_1_20015",104,1771,1,0,700,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20016]=_set({20016,4705,"moecitymonster_0_20016","moecitymonster_1_20016",110,1526,1,0,733,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20017]=_set({20017,4706,"moecitymonster_0_20017","moecitymonster_1_20017",106,1596,1,0,700,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20018]=_set({20018,5701,"moecitymonster_0_20018","moecitymonster_1_20018",69,2275,1,0,566,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20019]=_set({20019,5702,"moecitymonster_0_20019","moecitymonster_1_20019",76,2177,1,0,650,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20020]=_set({20020,5704,"moecitymonster_0_20020","moecitymonster_1_20020",96,1715,1,0,716,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20021]=_set({20021,5705,"moecitymonster_0_20021","moecitymonster_1_20021",108,1533,1,0,733,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[20022]=_set({20022,5706,"moecitymonster_0_20022","moecitymonster_1_20022",109,1638,1,0,666,5000,"fx_yunbao01_attack1_hit","",2,40},_mt),
+[30001]=_set({30001,1701,"moecitymonster_0_30001","moecitymonster_1_30001",168,7725,1,0,583,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30002]=_set({30002,1702,"moecitymonster_0_30002","moecitymonster_1_30002",183,7125,1,0,616,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30003]=_set({30003,1703,"moecitymonster_0_30003","moecitymonster_1_30003",240,6000,1,0,700,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30004]=_set({30004,1704,"moecitymonster_0_30004","moecitymonster_1_30004",276,5400,1,0,733,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30005]=_set({30005,2701,"moecitymonster_0_30005","moecitymonster_1_30005",174,7900,1,0,600,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30006]=_set({30006,2703,"moecitymonster_0_30006","moecitymonster_1_30006",237,5925,1,0,716,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30007]=_set({30007,2704,"moecitymonster_0_30007","moecitymonster_1_30007",264,5875,1,0,666,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30008]=_set({30008,2705,"moecitymonster_0_30008","moecitymonster_1_30008",249,5625,1,0,733,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30009]=_set({30009,3701,"moecitymonster_0_30009","moecitymonster_1_30009",174,8025,1,0,583,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30010]=_set({30010,3702,"moecitymonster_0_30010","moecitymonster_1_30010",195,7550,1,0,616,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30011]=_set({30011,3703,"moecitymonster_0_30011","moecitymonster_1_30011",267,5775,1,0,733,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30012]=_set({30012,3705,"moecitymonster_0_30012","moecitymonster_1_30012",249,6200,1,0,683,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30013]=_set({30013,4701,"moecitymonster_0_30013","moecitymonster_1_30013",165,7825,1,0,583,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30014]=_set({30014,4702,"moecitymonster_0_30014","moecitymonster_1_30014",183,7175,1,0,633,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30015]=_set({30015,4704,"moecitymonster_0_30015","moecitymonster_1_30015",249,6325,1,0,700,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30016]=_set({30016,4705,"moecitymonster_0_30016","moecitymonster_1_30016",264,5450,1,0,733,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30017]=_set({30017,4706,"moecitymonster_0_30017","moecitymonster_1_30017",255,5700,1,0,700,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30018]=_set({30018,5701,"moecitymonster_0_30018","moecitymonster_1_30018",165,8125,1,0,566,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30019]=_set({30019,5702,"moecitymonster_0_30019","moecitymonster_1_30019",183,7775,1,0,650,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30020]=_set({30020,5704,"moecitymonster_0_30020","moecitymonster_1_30020",231,6125,1,0,716,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30021]=_set({30021,5705,"moecitymonster_0_30021","moecitymonster_1_30021",258,5475,1,0,733,5000,"fx_yunbao01_attack1_hit","",3,100},_mt),
+[30022]=_set({30022,5706,"moecitymonster_0_30022","moecitymonster_1_30022",261,5850,1,0,666,5000,"fx_yunbao01_attack1_hit","",3,100},_mt)
+}
+
+return _datas

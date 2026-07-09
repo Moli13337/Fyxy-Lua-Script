@@ -1,0 +1,33 @@
+local _datas = {
+storebasicsdate_0_1001="神秘商店",
+storebasicsdate_0_1002="道具商店",
+storebasicsdate_0_1003="伙伴商店",
+storebasicsdate_0_1004="欲望商店",
+storebasicsdate_0_1005="印石商店",
+storebasicsdate_0_1006="皮肤礼包",
+storebasicsdate_0_1007="互动商店",
+storebasicsdate_0_1008="渔场商店",
+storebasicsdate_0_1009="鱼获助力礼包",
+storebasicsdate_0_1010="炼制助力",
+storebasicsdate_0_1011="饰品礼包",
+storebasicsdate_0_2001="荷塘商店",
+storebasicsdate_0_2002="龙骑商店",
+storebasicsdate_0_2003="勇者商店",
+storebasicsdate_0_2007="神裔商店",
+storebasicsdate_0_2008="特惠商店",
+storebasicsdate_0_2009="王国商店",
+storebasicsdate_0_2010="回归商店",
+storebasicsdate_0_2011="殿堂商店",
+storebasicsdate_0_2013="无尽商店",
+storebasicsdate_0_2014="魔药商店",
+storebasicsdate_0_2015="龙裔金店",
+storebasicsdate_0_2016="龙裔银店",
+storebasicsdate_0_2018="饰品商店",
+storebasicsdate_1_1001="随商店建筑解锁",
+storebasicsdate_1_1002="随商店建筑解锁",
+storebasicsdate_1_1003="随商店建筑解锁",
+storebasicsdate_1_2015="跟随奥兹圣殿解锁",
+storebasicsdate_1_2016="跟随奥兹圣殿解锁"
+}
+
+return _datas

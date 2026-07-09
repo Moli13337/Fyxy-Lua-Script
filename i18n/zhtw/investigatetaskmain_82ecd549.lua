@@ -1,0 +1,31 @@
+local _datas = {
+investigatetaskmain_0_10101="澡堂搓澡",
+investigatetaskmain_0_10102="三围体检",
+investigatetaskmain_0_10103="懒人运动",
+investigatetaskmain_0_10104="春天的梦",
+investigatetaskmain_0_10201="奶油节",
+investigatetaskmain_0_10202="巧克力节",
+investigatetaskmain_0_10203="飞吻节",
+investigatetaskmain_0_10204="香肠节",
+investigatetaskmain_0_10205="青瓜节",
+investigatetaskmain_0_10301="禁果品鉴",
+investigatetaskmain_0_10302="浴池误会",
+investigatetaskmain_0_10303="双人运动",
+investigatetaskmain_0_10304="制服娘",
+investigatetaskmain_0_10401="猫娘咖啡店",
+investigatetaskmain_0_10402="精灵放松馆",
+investigatetaskmain_0_10403="马娘体验店",
+investigatetaskmain_0_10404="羽娘倾诉店",
+investigatetaskmain_0_10405="熊娘解压店",
+investigatetaskmain_0_10406="米诺斯澡堂",
+investigatetaskmain_0_10407="犬娘租借店",
+investigatetaskmain_0_10501="乐果仙境",
+investigatetaskmain_0_10502="爱神花云",
+investigatetaskmain_0_10503="触手湿地",
+investigatetaskmain_0_10504="万娘世界",
+investigatetaskmain_0_10505="恶魔春梦",
+investigatetaskmain_0_10506="暧昧树林",
+investigatetaskmain_0_10507="激情乐园"
+}
+
+return _datas
