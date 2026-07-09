@@ -20,7 +20,7 @@
 数据来源：
 https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202508/t20250825_927704.html
 
-截至 `2026年7月9号15:42:02`，其 审批信息 依旧有效。
+截至 `UTC+8 2026年7月9号15:42:02`，其 审批信息 依旧有效。
 
 `lapp\sdk\cp\lsdkcpzd.lua`
 
